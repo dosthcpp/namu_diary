@@ -1,0 +1,70 @@
+name: namu_diary
+description: A tree diary for graduation project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+  video_player: ^1.0.1
+  provider: ^5.0.0
+  adaptive_action_sheet: ^2.0.0
+  cloud_firestore: ^1.0.1
+  firebase_core: ^1.0.1
+  firebase_storage: ^8.0.0
+  firebase_auth: ^1.0.1
+  flutter_unity_widget: ^4.0.3-null-safe
+  vector_math: ^2.1.0
+  image_picker: ^0.7.3
+  file_picker: ^3.0.0
+  flutter_image_compress: ^1.0.0-nullsafety
+  system_info: ^1.0.0
+  http: ^0.13.1
+  pdf_text: ^0.5.0
+  path_provider: ^2.0.1
+  progress_indicators: ^0.1.5
+  xml2json: ^5.0.0
+  pull_to_refresh: ^1.6.4
+  cached_network_image: ^2.5.1
+  google_maps_flutter: ^2.0.1
+  geolocator: ^7.0.1
+  flutter_html: ^1.3.0
+  gallery_saver: ^2.1.0
+  watcher: ^1.0.0
+  flutter_downloader: ^1.6.0
+  firebase_ml_vision:
+    git:
+      url: git://github.com/algirdasmac/flutterfire
+      path: packages/firebase_ml_vision
+  tutorial_coach_mark: ^1.0.0
+  introduction_screen: ^2.1.0
+  shared_preferences: ^2.0.5
+  flutter_secure_storage: ^4.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/aricon/
+
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
